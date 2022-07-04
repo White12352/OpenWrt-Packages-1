@@ -33,8 +33,11 @@ git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "eqos_luci"
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/packages" "uugamebooster_pkg" net/uugamebooster
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "uugamebooster_luci" applications/luci-app-uugamebooster
 #git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "unblockneteasemusic_luci" applications/luci-app-unblockneteasemusic
+git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "unblockmusic_luci" luci-app-unblockmusic
 git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "unblockneteasemusic_pkg" UnblockNeteaseMusic
 git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "unblockneteasemusic_luci" luci-app-unblockneteasemusic
+git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "unblockneteasemusic_go_pkg" UnblockNeteaseMusic-Go
+git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "unblockneteasemusic_luci" luci-app-unblockneteasemusic-go
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "arpbind_luci" applications/luci-app-arpbind
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "usb_printer_luci" applications/luci-app-usb-printer
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "accesscontrol_luci" applications/luci-app-accesscontrol
