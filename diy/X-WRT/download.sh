@@ -50,7 +50,7 @@ git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "filetransf
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "guest_wifi_luci" applications/luci-app-guest-wifi
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "ramfree_luci" applications/luci-app-ramfree
 #git_sparse_clone main "https://github.com/kenzok8/small-package" "adguardhome_luci" luci-app-adguardhome
-git_sparse_clone master "https://github.com/281677160/openwrt-package" "adguardhome_luci" luci-app-adguardhome
+git_sparse_clone 22.03 "https://github.com/281677160/openwrt-package" "adguardhome_luci" luci-app-adguardhome
 #git_sparse_clone master "https://github.com/281677160/openwrt-package" "adguardhome_pkg" adguardhome
 git_sparse_clone master "https://github.com/sundaqiang/openwrt-packages" "wolplus_luci" luci-app-wolplus
 git_sparse_clone main "https://github.com/kenzok8/jell" "adbyby_pkg" adbyby
