@@ -36,8 +36,9 @@ git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "unblocknet
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "arpbind_luci" applications/luci-app-arpbind
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "usb_printer_luci" applications/luci-app-usb-printer
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "accesscontrol_luci" applications/luci-app-accesscontrol
-git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "cifs_mount_luci" applications/luci-app-cifs-mount
+git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/packages" "vlmcsd_pkg" net/vlmcsd
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "vlmcsd_luci" applications/luci-app-vlmcsd
+git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "cifs_mount_luci" applications/luci-app-cifs-mount
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "lib_fs_luci" libs/luci-lib-fs
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "filetransfer_luci" applications/luci-app-filetransfer
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "guest_wifi_luci" applications/luci-app-guest-wifi
