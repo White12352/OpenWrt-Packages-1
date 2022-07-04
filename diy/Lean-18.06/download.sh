@@ -21,7 +21,7 @@ git clone --depth 1 https://github.com/brvphoenix/wrtbwmon wrtbwmon2 && mvdir wr
 git clone --depth 1 https://github.com/sirpdboy/luci-app-advanced
 git clone --depth 1 https://github.com/tty228/luci-app-serverchan
 git clone --depth 1 https://github.com/ntlf9t/luci-app-easymesh
-git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon
+git clone --depth 1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config
 git clone --depth 1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall passwall-pkgs && rm -rf passwall-pkgs/.github && mv -n passwall-pkgs/* ./ && rm -rf passwall-pkgs
