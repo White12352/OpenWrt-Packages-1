@@ -55,6 +55,7 @@ git_sparse_clone master "https://github.com/sundaqiang/openwrt-packages" "wolplu
 git_sparse_clone main "https://github.com/kenzok8/jell" "adbyby_pkg" adbyby
 git_sparse_clone main "https://github.com/kenzok8/jell" "adbyby_plus_luci" luci-app-adbyby-plus
 #git_sparse_clone master "https://github.com/281677160/openwrt-package" "unblockneteasemusic_luci" luci-app-unblockneteasemusic
+git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "redsocks2_pkg" redsocks2
 
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
