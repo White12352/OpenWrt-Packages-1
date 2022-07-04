@@ -32,7 +32,7 @@ git_sparse_clone master "https://github.com/coolsnowwolf/luci" "turboacc_luci" a
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "eqos_luci" applications/luci-app-eqos
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/packages" "uugamebooster_pkg" net/uugamebooster
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "uugamebooster_luci" applications/luci-app-uugamebooster
-git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "unblockneteasemusic_luci" applications/luci-app-unblockneteasemusic
+#git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "unblockneteasemusic_luci" applications/luci-app-unblockneteasemusic
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "arpbind_luci" applications/luci-app-arpbind
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "usb_printer_luci" applications/luci-app-usb-printer
 git_sparse_clone openwrt-21.02 "https://github.com/immortalwrt/luci" "accesscontrol_luci" applications/luci-app-accesscontrol
@@ -49,7 +49,7 @@ git_sparse_clone master "https://github.com/281677160/openwrt-package" "adguardh
 git_sparse_clone master "https://github.com/sundaqiang/openwrt-packages" "wolplus_luci" luci-app-wolplus
 git_sparse_clone main "https://github.com/kenzok8/jell" "adbyby_pkg" adbyby
 git_sparse_clone main "https://github.com/kenzok8/jell" "adbyby_plus_luci" luci-app-adbyby-plus
-#git_sparse_clone master "https://github.com/281677160/openwrt-package" "unblockneteasemusic_luci" luci-app-unblockneteasemusic
+git_sparse_clone master "https://github.com/281677160/openwrt-package" "unblockneteasemusic_luci" luci-app-unblockneteasemusic
 
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
